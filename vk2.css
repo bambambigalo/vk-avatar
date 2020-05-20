@@ -1,0 +1,146 @@
+.boxmidle {
+	width: 500px;
+	height: 500px;
+	background-color: #EDEEF0;
+	border:solid 1px black;
+}
+
+.box1 {
+	margin: 40px;
+	width: 230px;
+	height: 312px;
+	background-color: #FFFFFF;
+	border-radius: 3px;
+}
+
+.avatar{
+	position:relative;
+
+	background-color: black;
+	top: 15px;
+	margin: 15px;
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	background-image: url("https://sun9-72.userapi.com/c849520/v849520581/31be8/oNiDHoi6yuI.jpg");
+	background-size: 200px 200px;
+}
+
+.buttonprofile {
+	position: relative;
+	left: 15px;
+	top:2px;
+	width: 200px;
+	height: 80px;
+	background-color:#FFFFFF;
+}
+
+.message {
+	position: relative;
+	left: -1px;
+	top:10px;
+	width: 162px;
+	height: 30px;
+	border-radius: 4px 0 0 4px;
+	outline: none;
+	background-color: #5181B8;
+	color: #FFFFFF;
+	font-size: 12.5px;
+	text-align: center;
+	border-right: 1px solid #6a98cc;
+	border:0;
+	cursor: pointer;
+}
+
+.message:hover { 
+	background-color: #5A8AC1;
+}
+
+.message:active {
+	background-color: #4878AF;
+	border-bottom: 0px solid #4878AF;
+}
+
+.gift {
+	position: relative;
+	left: 161px;
+	top:-20px;
+	width: 38px;
+	height: 30px;
+	border-radius: 0 4px 4px 0;
+	outline: none;
+	background-color: #5181B8;
+	border:0;
+	border-left: 1px solid #6a98cc;
+	cursor: pointer;
+	background-image: url('https://vk.com/images/icons/gift_icon.png');
+	background-size: 11px 13px;
+	background-repeat: no-repeat;
+	background-position: 12px 8px;
+}
+
+.gift:hover {
+	background-color: #5A8AC1;
+}
+
+.gift:active{
+	background-color: #4878AF;
+	border-bottom: 0px solid #4878AF;
+}
+
+.friends {
+	position: relative;
+	left: -43px;
+	top: 10px;
+	width: 157px;
+	height: 30px;
+	border-radius: 4px;
+	outline: none;
+	background-color:#E5EBF1 ;
+	color:#55677d;
+	font-size: 12.5px;
+	text-align: center;
+	cursor: pointer;
+	border:0;
+	background-image: url(https://vk.com/images/svg_icons/contour_arrow.svg);
+	background-repeat: no-repeat;
+	background-size: 8px 4px;
+	background-position: 130px 14px;
+}
+
+.friends:hover {
+	background-color: #DFE6EC;
+}
+
+.friends:active{
+	background-color: #E5EBF1;
+	border-bottom: 0px solid #E5EBF1;
+}
+
+.points {
+	position: relative;
+	left: 165px;
+	top: -20px;
+	width: 36px;
+	height:30px;
+	border-radius: 4px;
+	outline: none;
+	background-color: #E5EBF1;
+	color: #55677d;
+	font-size: 12.5px;
+	text-align: center;
+	cursor: pointer;
+	border:0;
+	background-image: url(https://vk.com/images/icons/profile_dots.png?1);
+	background-repeat: no-repeat;
+	background-position: 9px -5px;
+}
+
+.points:hover {
+	background-color: #DFE6EC;
+}
+
+.points:active{
+	background-color: #E5EBF1;
+	border-bottom: 0px solid #E5EBF1;
+}
